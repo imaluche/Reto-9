@@ -25,7 +25,7 @@ if __name__=="__main__":
 - Declaramos una variable llamada "cadena" de tipo string, esta sera el caracter que vamos a evaluar
 - Declaramos otra variable que represente el primer caracter de la cadena, para trabajar unicamente con la primera letra
 - Usando la palabra reservada ord transformamos el ASCII a su numero correspondiente
-- aplicamos un condicional para evitar que sean ingresados valores con una longitud valor a 1, pues el codigo se limita a evaluar el valor de un solo caracter
+- aplicamos un condicional para evitar que sean ingresados valores con una longitud mayor a 1, pues el codigo se limita a evaluar el valor de un solo caracter
 - En caso de que no sea mayor a 1 la cantidad de caracteres usamos un lambda, este lambda arrojara un valor booleando tomando en cuenta el rango de valores de los digitos
 - Si esta dentro del valor la variable comprobacion en la que se aplica el lambda sera verdadera, en caso contrario sera falsa
 - Aplicamos un ultimo condicional que evalue si la comprobacion es verdadera, si es asi el caracter es un digito, en caso contrario no es posible que lo sea
