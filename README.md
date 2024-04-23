@@ -43,11 +43,11 @@ if __name__=="__main__":
   print("no se puede hacer un triangulo") 
 ```
 - Declaramos 3 variables introducibles por teclado, cada una representara una de las longitudes a evaluar
-- Creamos una variable "resultado" que sea igua a un lambda, este lambda tomando los 3 valores de longitud evaluara si la suma de 2 de ellos es igual a un tercero, sucedinedo esto con los 3 casos posibles (a+b>c, a+c>b y b+c>a).
+- Creamos una variable "resultado" que sea igual a un lambda, este lambda tomando los 3 valores de longitud evaluara si la suma de 2 de ellos es igual a un tercero, sucediendo esto con los 3 casos posibles (a+b>c, a+c>b y b+c>a).
 - Si esto se cumple Resultado sera verdadero, en caso contrario sera falso
-- Aplicamos una condiciona que evalue si resultado es verdadero, si esto es verdad efectivamente se podra hacer un triangulo a partir de las longitudes
+- Aplicamos una condicional que evalue si resultado es verdadero, si esto es verdad efectivamente se podra hacer un triangulo a partir de las longitudes
 
-Funcion 3: Evaluar el numero de contagios a partir del numero de contagios actuales y el numero de dias que pasaron (esta funcion es tomada del sexto ejercicio del reto 6)
+# Funcion 3: Evaluar el numero de contagios a partir del numero de contagios actuales y el numero de dias que pasaron (esta funcion es tomada del sexto ejercicio del reto 6)
 ```python
 #Se trabajara a partir de una funcion que nos dice el numero de contagios a partir de un numero de contagios iniciales y un numero de dias
 # Este ejercicio es el sexto del reto 6
@@ -63,7 +63,7 @@ if __name__=="__main__":
 
 ## Ejercicio 2
 De los retos anteriores seleccionar 3 funciones y escribirlas usando argumentos no definidos (*args)
-funcion 1: Funcion para obtener el promedio aditivo de una serie de numeros (pertenece al septimo punto del reto 6)
+# funcion 1: Funcion para obtener el promedio aditivo de una serie de numeros (pertenece al septimo punto del reto 6)
 ```python
 #Se usara la funcion para obtener el promedio aditivo de una serie de numeros, es el punto 7 del reto 6
 def potencia2(*args):
@@ -89,8 +89,8 @@ if __name__=="__main__":
 - Justo despues aplicamos un bucle for que pase por todos los valores dentro de args (los valores ingresados en la funcion), en este por cada paso se le sumara a la variable division 1 (representando que hay 1 valor mas a contar) y se le sumara a resultado el valor a actual de i (representando que se le suma a resultado el valor actual)
 - Esto se repetira con todos los valores de i, cuando esto acabe se entregara el valor resultante de la division entre la suma de valores (representacion) y el numero de valores (division)
 - Ya dentro del codigo definimos valores (pueden ser los que se deseen, pero en este caso usaremos 5) los cuales seran a los que se les obtendra el promedio, todos estos valores son ingresables por teclado
-- Imprimimos el resultado de la funcion con los numeros, dentro de el codigo mostrado de ejemplo se aplica la funcion con diferente cantidad de valores para comprobar su efectividad
-Funcion 2:  Funcion para obtener la mediana en una lista de numeros (esta funcion proviene del punto 7 del reto 6)
+- Imprimimos el resultado de la funcion con los numeros, dentro del codigo mostrado de ejemplo se aplica la funcion con diferente cantidad de valores para comprobar su efectividad
+# Funcion 2:  Funcion para obtener la mediana en una lista de numeros (esta funcion proviene del punto 7 del reto 6)
 ```python
 #se usara una funcion para obtener la mediana de una lista de numeros, esta funcion viene del punto 7 del reto 6
 def mediana(*args):
@@ -116,8 +116,8 @@ if __name__=="__main__":
 - Dentro de la funcion declaramos 2 variables que  represente la tupla de args organizada y la longitud de esta tupla
 - Aplicamos un condicional que evalue si la longitud del conjunto es par o impar. Si es par regresara la suma de los 2 valores de en medio entre 2, si es impar regresara el valor de en medio
 - Dentro del codigo en si declaramos variables que seran aplicadas en la funcion, estas pueden ser cuantas se deseen (en nuestro caso pondremos solamente 5)
-- Imprimimos los resultados de la funcion aplicada en los valores, dentro de el codigo mostrado de ejemplo se aplica la funcion con diferente cantidad de valores para comprobar su efectividad
-Funcion 3: Funcion para a partir de un conjunto obtener el numero mayor potenciado al menor
+- Imprimimos los resultados de la funcion aplicada en los valores, dentro del codigo mostrado de ejemplo se aplica la funcion con diferente cantidad de valores para comprobar su efectividad
+# Funcion 3: Funcion para a partir de un conjunto obtener el numero mayor potenciado al menor
 ```python
 #Se usara una funcion para a partir del maximo y minimo de un conjunto de numeros se obtenga el mayor potenciado al menor
 def potencia(*args):
@@ -153,14 +153,14 @@ if __name__=="__main__":
     e:float=float(input("Ingrese el exponente: "))
     print("El resultado de la potencia es: ",potencia_recursiva(b,e))
 ```
-- Definimos la funcion para la otencia, en esta se deberan ingresar 2 valores (b para la base y e para el exponente)
+- Definimos la funcion para la potencia, en esta se deberan ingresar 2 valores (b para la base y e para el exponente)
 - Aplicamos un condicional que evalue el valor de e, si este es igual a 0 podemos asumir que el valor es 1. Por tanto regresandolo
 - Si este es cualquier otro valor NATURAL se regresara el producto de la base por la funcion aplicada en la base y el exponente menos 1 
 - Ya dentro del codigo declaramos 2 variables introducibles por teclado para la base y el exponente
-- Imprimimos el resultado de la funcion aplicada en estas varibales de una manera comprensible
+- Imprimimos el resultado de la funcion aplicada en estas variables de una manera comprensible
 
 ## Ejercicio 4
-Realizar pruebas para compara la sucesion de fibonacci con iteracion y recursion por medio de una plantilla que evalue el tiempo que se tarda
+Realizar pruebas para comparar la sucesion de fibonacci con iteracion y recursion por medio de una plantilla que evalue el tiempo que se tarda
 ```python
 import time
 def recursofibo(n:int)->int:
@@ -196,17 +196,17 @@ if __name__ == "__main__":
     print("hay una diferencia de "+str(timer-timero)+" segundos entre los dos metodos")
 ```
 - (No se tomara en cuenta lo que pasa relacionado a time excepto para el final, pues eso no es producto mio)
-- Definimos 2 funciones en la que se introdusca una variable que represente el numero de la serie de fibonacci, en cada una usaremos su respectivo metodo (no es necesario explicarlo pues en la clase se explico)
-- Ya dentro del codigo declaramos una variable que represente el resultado de los valores, aqui es donde entra a tener importancia el tiempo (en este caso son las variables timer y timerom la primera es del metodo recursivo y la segunda del iterativo)
+- Definimos 2 funciones en la que se introduzca una variable que represente el numero de la serie de fibonacci, en cada una usaremos su respectivo metodo (no es necesario explicarlo pues en la clase se explico)
+- Ya dentro del codigo declaramos una variable que represente el resultado de los valores, aqui es donde entra a tener importancia el tiempo (en este caso el tiempo se representara por las variables timer y timero, la primera es del metodo recursivo y la segunda del iterativo)
 - Declaramos el resultado del metodo recursivo y justo debajo imprimimos el tiempo que tardo (timer), despues imprimimos el resultado del metodo iterativo y justo debajo cuanto se tardo (timero).
 - Aclaramos que se imprimen los resultados de las series para comprobar que coincidan
-- Ademas de poder comprobar cual metodo es mas rapido imprimimos la diferencia entre ambos valores
+- Imprimimos la diferencia entre ambos valores para tener mas claro la diferencia de tiempo
 - Al analizarlo podemos darnos cuenta que el metodo iterativo es el mas rapido
 
 ## Ejercicio 5
 Crear cuenta de stackoverflow y adjuntar la imagen
 ![image](https://github.com/imaluche/Reto-9/assets/159048470/d80bcff6-b87d-4cf1-9ce2-6d846f7376b5)
-## Ejercicio 5
+## Ejercicio 6
 Crear cuenta en likedin
 [Linkedin de Iván Maluche](https://www.linkedin.com/in/iv%C3%A1n-undefined-675b38298/)
 
