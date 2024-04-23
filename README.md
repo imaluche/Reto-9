@@ -4,7 +4,7 @@ Reto numero 9 programacion de computadoras
 
 ## Ejercicio 1
 Seleccione 3 funciones de retos anteriores y escribalas con lambdas
-Funcion 1: Evaluar si un caracter es un digito segun los codigos ASCII (funcion proveniente del tercer punto del reto 4)
+# Funcion 1: Evaluar si un caracter es un digito segun los codigos ASCII (funcion proveniente del tercer punto del reto 4)
 ```python
 #Se usara una funcion que busca evaluar si un caracter es un digito o no segun el codigo ASCII, es el tercer punto del reto 4
 if __name__=="__main__":
@@ -22,7 +22,7 @@ if __name__=="__main__":
             print("se limita a solo una letra para obtener solo un valor evaluable") 
 
 ```
-- Declaramos una variable llamada "cadena" de ti string, esta sera el caracter que vamos a evaluar
+- Declaramos una variable llamada "cadena" de tipo string, esta sera el caracter que vamos a evaluar
 - Declaramos otra variable que represente el primer caracter de la cadena, para trabajar unicamente con la primera letra
 - Usando la palabra reservada ord transformamos el ASCII a su numero correspondiente
 - aplicamos un condicional para evitar que sean ingresados valores con una longitud valor a 1, pues el codigo se limita a evaluar el valor de un solo caracter
