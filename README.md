@@ -29,7 +29,7 @@ if __name__=="__main__":
 - En caso de que no sea mayor a 1 la cantidad de caracteres usamos un lambda, este lambda arrojara un valor booleando tomando en cuenta el rango de valores de los digitos
 - Si esta dentro del valor la variable comprobacion en la que se aplica el lambda sera verdadera, en caso contrario sera falsa
 - Aplicamos un ultimo condicional que evalue si la comprobacion es verdadera, si es asi el caracter es un digito, en caso contrario no es posible que lo sea
-Funcion 2: Evaluar si 3 longitudes pueden formar un triangulo (funcion proveniente del sexto punto del reto 4)
+# Funcion 2: Evaluar si 3 longitudes pueden formar un triangulo (funcion proveniente del sexto punto del reto 4)
 ```python
 #Se trabajara a partir de una funcion que nos dice si 3 longitudes pueden formar un triangulo, es el sexto punto del reto 4
 if __name__=="__main__":
